@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgProfilePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        app:srcCompat="@android:color/background_light"
+
+        />
+
+    <TextView
+        android:id="@+id/dialogShowName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imgProfilePhoto"
+        android:text="TextView"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dialogBt"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imgProfilePhoto"
+        android:background="@null"
+        android:text="X"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="16sp" />
+
+</RelativeLayout>
